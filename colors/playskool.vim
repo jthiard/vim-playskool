@@ -41,6 +41,7 @@ hi NonText			guifg=#0030ff		ctermfg=27
 hi StatusLine	guifg=darkblue guibg=darkgray gui=none		ctermfg=darkblue ctermbg=darkgray term=none cterm=none
 hi StatusLineNC	guifg=black guibg=darkgray gui=none		ctermfg=black ctermbg=darkgray term=none cterm=none
 hi VertSplit	guifg=black guibg=darkgray gui=none		ctermfg=black ctermbg=darkgray term=none cterm=none
+hi ColorColumn  guibg=#25373b   ctermbg=darkgrey
 
 "hi Folded	guifg=#808080 guibg=#000040			ctermfg=darkgrey ctermbg=black cterm=bold term=bold
 hi Folded	guifg=#D8D4D4 guibg=#1C1C40			ctermfg=188 ctermbg=17 cterm=bold term=bold

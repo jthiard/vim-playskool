@@ -22,7 +22,8 @@ let colors_name = "playskool"
 
 hi Normal		guifg=#E2E3E5 guibg=#0D2126					ctermfg=188 ctermbg=black
 hi ErrorMsg		guifg=#ffffff guibg=#287eff						ctermfg=white ctermbg=lightblue
-hi Visual		guifg=#5D5D5D guibg=fg		gui=reverse				ctermfg=59 ctermbg=fg cterm=reverse
+"hi Visual		guifg=#5D5D5D guibg=fg		gui=reverse				ctermfg=59 ctermbg=fg cterm=reverse
+hi Visual		gui=reverse guibg=black guifg=NONE cterm=reverse ctermbg=black ctermfg=NONE
 hi VisualNOS	guifg=#8080ff guibg=fg		gui=reverse,underline	ctermfg=105 ctermbg=26 cterm=reverse,underline
 hi Todo			guifg=#d14a14 guibg=#1248d1	gui=bold					ctermfg=166	ctermbg=26
 hi Search		guifg=#90fff0 guibg=#2050d0						ctermfg=white ctermbg=26 cterm=underline term=underline
@@ -55,8 +56,8 @@ hi DiffChange	guibg=darkmagenta ctermbg=darkmagenta cterm=none
 hi DiffDelete	ctermfg=gray ctermbg=darkred gui=bold guifg=#c0c0c0 guibg=#4A0404
 hi DiffText	cterm=bold ctermbg=darkyellow gui=bold guibg=darkyellow
 
-hi Cursor	guifg=black guibg=#A5B1B1 ctermfg=black ctermbg=145
-hi iCursor	guifg=black guibg=#A5B1B1 ctermfg=black ctermbg=145
+hi Cursor	gui=reverse guibg=NONE guifg=NONE
+"hi iCursor	gui=reverse guibg=NONE guifg=NONE
 
 
 "hi Comment	guifg=#80a0ff ctermfg=darkblue

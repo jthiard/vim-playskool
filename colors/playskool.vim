@@ -1,7 +1,7 @@
 " Vim color file
 " Playschool theme
 "
-" Maintainer:	Jérôme Thiard <jerome.thiard@gmail.com>
+" Maintainer: 	Jérôme Thiard <jerome.thiard@gmail.com>
 " Last Change:	2014 march 26
 
 " Hacked from darkblue by Bohdan Vlasky
@@ -19,8 +19,7 @@ if exists("syntax_on")
 endif
 
 let colors_name = "playskool"
-
-hi Normal		guifg=#E2E3E5 guibg=#0D2126					ctermfg=188 ctermbg=black
+hi Normal		gui=none guifg=#E2E3E5 guibg=#0D2126					ctermfg=188 ctermbg=black
 hi ErrorMsg		guifg=#ffffff guibg=#287eff						ctermfg=white ctermbg=lightblue
 "hi Visual		guifg=#5D5D5D guibg=fg		gui=reverse				ctermfg=59 ctermbg=fg cterm=reverse
 hi Visual		gui=reverse guibg=black guifg=NONE cterm=reverse ctermbg=black ctermfg=NONE
@@ -64,10 +63,14 @@ hi Cursor	gui=reverse guibg=NONE guifg=NONE
 hi Documentation	guifg=#809DAB ctermfg=109
 hi Comment	guifg=#80ABA3 ctermfg=109
 hi Constant	ctermfg=71 guifg=#68B53A cterm=none gui=none
+hi! link String Constant
 hi Boolean		ctermfg=73 guifg=#509DB9 gui=bold cterm=bold
 hi Special	ctermfg=159 guifg=#BEF8EE cterm=none gui=none
+"hi! link Noise Special
 hi Identifier	ctermfg=80 guifg=#40C5E6 cterm=none
+hi! link Function Identifier
 hi Statement	ctermfg=221 guifg=#F2C436 gui=none cterm=none 
+hi! link Operator Statement
 hi PreProc	ctermfg=166 guifg=#E3661F  gui=none cterm=none
 hi type		ctermfg=73 guifg=#509DB9 gui=bold cterm=bold
 hi Underlined   guifg=#E2E3E5 ctermfg=188 cterm=underline term=underline
